@@ -1,7 +1,7 @@
 ---
 title: 利用Git分支多电脑维护Hexo博客
 date: 2018-01-06 16:43:37
-tags:Hexo
+tags: Hexo
 ---
 
 ### 前言
