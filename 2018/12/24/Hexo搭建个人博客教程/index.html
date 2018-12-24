@@ -6,19 +6,28 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://maoxiangyu.github.io">
-  <title>maoxiangyuBlog</title>
+  <title>Hexo搭建个人博客教程 | maoxiangyuBlog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="title: zookeeper单机与集群搭建 集群搭建 一.主流程​        1.下载zookeeper ​">
+  <meta name="description" content="一.准备工作​    1.安装Node.js   下载地址为：https://nodejs.org/en/download/，安装好后可以在cmd中输入node -v查是否安装成功，注意需要配置环境变量 ​     ​    配置系统Path ​     ​    查看是否安装成功 ​     ​    2.安装git 下载地址https://git-scm.com/downloads  安装成功">
+<meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="maoxiangyuBlog">
-<meta property="og:url" content="https://maoxiangyu.github.io/2018/12/23/ZooKeeper集群搭建/index.html">
+<meta property="og:title" content="Hexo搭建个人博客教程">
+<meta property="og:url" content="https://maoxiangyu.github.io/2018/12/24/Hexo搭建个人博客教程/index.html">
 <meta property="og:site_name" content="maoxiangyuBlog">
-<meta property="og:description" content="title: zookeeper单机与集群搭建 集群搭建 一.主流程​        1.下载zookeeper ​">
+<meta property="og:description" content="一.准备工作​    1.安装Node.js   下载地址为：https://nodejs.org/en/download/，安装好后可以在cmd中输入node -v查是否安装成功，注意需要配置环境变量 ​     ​    配置系统Path ​     ​    查看是否安装成功 ​     ​    2.安装git 下载地址https://git-scm.com/downloads  安装成功">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-23T04:16:25.617Z">
+<meta property="og:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545643608583.png">
+<meta property="og:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545643863613.png">
+<meta property="og:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545644249812.png">
+<meta property="og:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545644550145.png">
+<meta property="og:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545644660563.png">
+<meta property="og:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545644851621.png">
+<meta property="og:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545644912292.png">
+<meta property="og:updated_time" content="2018-12-24T09:51:05.611Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="maoxiangyuBlog">
-<meta name="twitter:description" content="title: zookeeper单机与集群搭建 集群搭建 一.主流程​        1.下载zookeeper ​">
+<meta name="twitter:title" content="Hexo搭建个人博客教程">
+<meta name="twitter:description" content="一.准备工作​    1.安装Node.js   下载地址为：https://nodejs.org/en/download/，安装好后可以在cmd中输入node -v查是否安装成功，注意需要配置环境变量 ​     ​    配置系统Path ​     ​    查看是否安装成功 ​     ​    2.安装git 下载地址https://git-scm.com/downloads  安装成功">
+<meta name="twitter:image" content="c:/Users/mao/AppData/Roaming/Typora/typora-user-images/1545643608583.png">
   
     <link rel="alternative" href="/atom.xml" title="maoxiangyuBlog" type="application/atom+xml">
   
@@ -47,7 +56,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/head.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">毛祥宇</a></h1>
@@ -105,7 +114,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/head.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">毛祥宇</h1>
@@ -154,15 +163,39 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-ZooKeeper集群搭建" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-Hexo搭建个人博客教程" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo搭建个人博客教程
+    </h1>
+  
+
+        
+        <a href="/2018/12/24/Hexo搭建个人博客教程/" class="archive-article-date">
+  	<time datetime="2018-12-24T09:20:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-24</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>title: zookeeper单机与集群搭建</p>
-<p>集群搭建</p>
-<h4 id="一-主流程"><a href="#一-主流程" class="headerlink" title="一.主流程"></a>一.主流程</h4><p>​        1.下载zookeeper</p>
-<p>​        </p>
+        <h3 id="一-准备工作"><a href="#一-准备工作" class="headerlink" title="一.准备工作"></a>一.准备工作</h3><p>​    1.安装Node.js   下载地址为：<a href="https://nodejs.org/en/download/，安装好后可以在cmd中输入node" target="_blank" rel="noopener">https://nodejs.org/en/download/，安装好后可以在cmd中输入node</a> -v查是否安装成功，注意需要配置环境变量</p>
+<p>​    <img src="C:\Users\mao\AppData\Roaming\Typora\typora-user-images\1545643608583.png" alt="1545643608583"></p>
+<p>​    配置系统Path</p>
+<p>​    <img src="C:\Users\mao\AppData\Roaming\Typora\typora-user-images\1545643863613.png" alt="1545643863613"></p>
+<p>​    查看是否安装成功</p>
+<p>​    <img src="C:\Users\mao\AppData\Roaming\Typora\typora-user-images\1545644249812.png" alt="1545644249812"></p>
+<p>​    2.安装git 下载地址<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>  安装成功后可以鼠标右键查看是否安装成功，也可以通过cmd查看git版本 ，git 使用右键git base输入命令，无需配置环境变量</p>
+<p>​    <img src="C:\Users\mao\AppData\Roaming\Typora\typora-user-images\1545644550145.png" alt="1545644550145"></p>
+<p><img src="C:\Users\mao\AppData\Roaming\Typora\typora-user-images\1545644660563.png" alt="1545644660563"></p>
+<p>​    3.你需要注册一个Github账号，注册好后新建一个仓库，仓库名字可以命名成xxx.github.io(例如：maoxiangyu.github.io)<img src="C:\Users\mao\AppData\Roaming\Typora\typora-user-images\1545644851621.png" alt="1545644851621"></p>
+<p><img src="C:\Users\mao\AppData\Roaming\Typora\typora-user-images\1545644912292.png" alt="1545644912292"></p>
+<p>仓库创建好后，点击进入刚刚创建的仓库，点击setting</p>
+<p>​    </p>
 
       
 
@@ -192,6 +225,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -242,7 +286,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://maoxiangyu.github.io/2018/12/23/ZooKeeper集群搭建/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://maoxiangyu.github.io/2018/12/24/Hexo搭建个人博客教程/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -257,8 +301,8 @@
 <nav id="article-nav">
   
   
-    <a href="/2018/12/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2018/01/06/利用Git分支多电脑维护Hexo博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">利用Git分支多电脑维护Hexo博客</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -382,6 +426,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">java</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -463,7 +515,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">一点一滴</div>
   	  	
     	</section>
     
